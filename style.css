@@ -1,7 +1,7 @@
 .product-card {
   width: 300px;
   margin: 50px auto;
-  padding: 20px;
+  padding: 20px; /* for adding space inside the card */
   background: #b3afaf;
   border: 14px solid transparent;
   border-image: url(./Image/border-image.png) 23 round; /* creates a custom image border */
@@ -25,7 +25,9 @@
 }
 
 .product-price {
-  display: block;
+  display: block; /* for centering the price */
+  text-align: center; /* centers the price text */
   margin-top: 10px; /* space above price */
   font-size: 18px;
 }
+  
