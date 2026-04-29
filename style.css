@@ -26,7 +26,7 @@
 
 .product-price {
   display: block; /* for centering the price */
-  text-align: center; /* centers the price text */
+  text-align: left; /* centers the price text */
   margin-top: 10px; /* space above price */
   font-size: 18px;
 }
