@@ -1,0 +1,31 @@
+.product-card {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #b3afaf;
+  border: 14px solid transparent;
+  border-image: url(./Image/border-image.png) 23 round; /* creates a custom image border */
+  border-radius: 10px; /* smooth rounded corners */
+  box-shadow: 5px 5px 15px gray; /* adds a shadow */
+}
+
+.product-card img {
+  width: 100%;
+  height: auto; /* keeps image aspect ratio correct */
+}
+
+.product-title {
+  text-align: center; /* centers the title text */
+  font-weight: bold;
+}
+
+.product-description {
+  height: 100px; /* fixed height for description box */
+  overflow-y: scroll; /* enables vertical scroll if text is long */
+}
+
+.product-price {
+  display: block;
+  margin-top: 10px; /* space above price */
+  font-size: 18px;
+}
